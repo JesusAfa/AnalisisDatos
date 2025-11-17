@@ -29,8 +29,6 @@ from pipeline import (
 )
 
 st.set_page_config(page_title="Panel de Ventas", layout="wide")
-# Ajustes para despliegue
-st.runtime.scriptrunner.add_script_run_ctx if hasattr(st, 'runtime') else None
 
 st.title("📊 Panel integral de ventas")
 st.caption("Carga tus datos, explora métricas y genera predicciones.")
